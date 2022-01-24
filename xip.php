@@ -15,19 +15,24 @@ $visitorIp = isset($_SERVER['HTTP_X_FORWARDED_FOR']) ? $_SERVER['HTTP_X_FORWARDE
 <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="An information security professional who penetrates a computer system, network, application or other computing resource on behalf of its owners — and with their authorization." />
         <meta name="author" content="Rob" />
-		<title>RobsNest - <?php echo $today?></title>
+		<title>RobsNest - External IP Command</title>
 		<link rel="icon" type="image/png" href="img/bwTux.png" />	
 		<link rel="stylesheet" href="css/cts.css">
 		<link rel="stylesheet" href="css/modal.css">
 		<script src="js/cts.js"></script>
 <style>
-div.fancy {
-	width: fit-content;
-	background-image: url("img/paper.jpg");
-  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  	text-align: center;
-	padding: 4px;
-	font-size: 12pt;
+div.codescreen {
+  background-color: #151B24;
+  font-size: 12pt;
+  margin: auto;
+  width: 25%;
+  text-align: left;
+  padding: 10px;
+}
+@media screen and (max-width: 820px) {
+  div.codescreen {
+    width: 80%;
+  }
 }
 </style>
 
@@ -46,44 +51,29 @@ div.fancy {
 <a href="xip.php" title="External IP Command">XIP</a>
 <a href="javascript:void(0);" title="Menu" style="font-size:18px;" class="icon" onclick="navChange()">&#9776;</a>
 </div>
+
 <div class="rc_content">
-<table align="center"><tr><td>
-<div class="fancy">
-<img  id="myImg" src="img/LinusAndMe.png" target="_top" alt="Me and Linus Torvalds, Oakland, California 2002" style="width:100%;max-width:300px" title="Me and Linus Torvalds; Oakland, Ca. 2002" />
+	Create a bash script called xip with the following content:
+	<div class="codescreen">
+		#!/bin/bash
+		<br /><br />
+		curl https://robsnest.net/ip.php
+	</div>
+	Make it executable:<br />
+	<div class="codescreen">
+		chmod +x xip<br />
+	</div>
+	And move it to a directory in your $PATH such as:<br />
+	<div class="codescreen">
+		sudo mv xip /usr/local/bin<br />
+	</div>
+	Now, just type xip at the command prompt:<br />
+	<div class="codescreen">
+		xip<br />
+		Your External IP Address is <?php echo $visitorIp?>
+	</div>
 </div>
-</td></tr></table>
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
-
-<script>
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}
-</script>
-</div>
-</script>
 </body>
 </html>
 

@@ -30,6 +30,7 @@ $visitorIp = isset($_SERVER['HTTP_X_FORWARDED_FOR']) ? $_SERVER['HTTP_X_FORWARDE
 <a href="linusandme.php" title="Linus & Me">Linus & Me</a>
 <a href="https://connortechsolutions.com" title="Connor Technology Solutions">Connor Technology Solutions</a>
 <a href="weather.php" title="Cumberland Area Weather">Weather</a>
+<a href="xip.php" title="External IP Command">XIP</a>
 <a href="javascript:void(0);" title="Menu" style="font-size:18px;" class="icon" onclick="navChange()">&#9776;</a>
 </div>
 <div class="rc_content">
