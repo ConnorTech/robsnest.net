@@ -12,14 +12,14 @@ $visitorIp = isset($_SERVER['HTTP_X_FORWARDED_FOR']) ? $_SERVER['HTTP_X_FORWARDE
 <html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="An information security professional who penetrates a computer system, network, application or other computing resource on behalf of its owners — and with their authorization." />
+        <meta name="description" content="Cumberland, Maryland weather forecast." />
         <meta name="author" content="Rob" />
-		<title>RobsNest - <?php echo $today?></title>
+		<title>RobsNest - Cumberland Weather</title>
 		<link rel="icon" type="image/png" href="img/bwTux.png" />	
 		<link rel="stylesheet" href="css/cts.css">
 		<script src="js/cts.js"></script>
 </head>
-<body onLoad="typeWriter()">
+<body>
 <div class="hero-image">
   <div class="hero-text">
     <h2 style="font-size:3vw">RobsNest</h2>
@@ -27,7 +27,7 @@ $visitorIp = isset($_SERVER['HTTP_X_FORWARDED_FOR']) ? $_SERVER['HTTP_X_FORWARDE
   </div>
 </div>
 <div class="rc_nav" id="centered_nav">
-<a href="map.php" title="Fun With Maps">Map</a>
+<a href="map.php" title="Cumberland, Maryland">Map</a>
 <a href="linusandme.php" title="Linus & Me">Linus & Me</a>
 <a href="https://connortechsolutions.com" title="Connor Technology Solutions">Connor Technology Solutions</a>
 <a href="weather.php" title="Cumberland Area Weather">Weather</a>

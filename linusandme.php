@@ -15,7 +15,7 @@ $visitorIp = isset($_SERVER['HTTP_X_FORWARDED_FOR']) ? $_SERVER['HTTP_X_FORWARDE
 <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="An information security professional who penetrates a computer system, network, application or other computing resource on behalf of its owners — and with their authorization." />
         <meta name="author" content="Rob" />
-		<title>RobsNest - <?php echo $today?></title>
+		<title>RobsNest - Me and Linus Torvalds; Oakland, California 2002</title>
 		<link rel="icon" type="image/png" href="img/bwTux.png" />	
 		<link rel="stylesheet" href="css/cts.css">
 		<link rel="stylesheet" href="css/modal.css">
@@ -32,7 +32,7 @@ div.fancy {
 </style>
 
 </head>
-<body onLoad="typeWriter()">
+<body>
 <div class="hero-image">
 <div class="hero-text">
 <h2 style="font-size:3vw">RobsNest</h2>
@@ -40,7 +40,7 @@ div.fancy {
 </div>
 </div>
 <div class="rc_nav" id="centered_nav">
-<a href="map.php" title="Fun With Maps">Map</a>
+<a href="map.php" title="Cumberland, Maryland">Map</a>
 <a href="linusandme.php" title="Linus & Me">Linus & Me</a>
 <a href="https://connortechsolutions.com" title="Connor Technology Solutions">Connor Technology Solutions</a>
 <a href="weather.php" title="Cumberland Area Weather">Weather</a>
@@ -50,7 +50,7 @@ div.fancy {
 <div class="rc_content">
 <table align="center"><tr><td>
 <div class="fancy">
-<img  id="myImg" src="img/LinusAndMe.png" target="_top" alt="Me and Linus Torvalds, Oakland, California 2002" style="width:100%;max-width:300px" title="Me and Linus Torvalds; Oakland, Ca. 2002" />
+<img  id="myImg" src="img/LinusAndMe.png" target="_top" alt="Me and Linus Torvalds; Oakland, California 2002" style="width:100%;max-width:300px" title="Me and Linus Torvalds; Oakland, Ca. 2002" />
 </div>
 </td></tr></table>
 
