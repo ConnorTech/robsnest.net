@@ -63,7 +63,7 @@ div.codescreen {
 	<div class="codescreen">
 		chmod +x xip<br />
 	</div>
-	And move it to a directory in your $PATH such as:<br />
+	Move it to a directory in your $PATH such as:<br />
 	<div class="codescreen">
 		sudo mv xip /usr/local/bin<br />
 	</div>
