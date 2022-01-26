@@ -50,6 +50,7 @@ div.codescreen {
 <a href="https://connortechsolutions.com" title="Connor Technology Solutions">Connor Technology Solutions</a>
 <a href="weather.php" title="Cumberland Area Weather">Weather</a>
 <a href="xip.php" title="External IP Command">XIP</a>
+<a href="chat/index.php" title="Chat Room">Chat</a>
 <a href="javascript:void(0);" title="Menu" style="font-size:18px;" class="icon" onclick="navChange()">&#9776;</a>
 </div>
 
