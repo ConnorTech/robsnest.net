@@ -53,7 +53,7 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIi43NyV1BxrCfxX1b5YrvjMpkKCrOKlA&callback=myMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=<YOUR_API_KEY>&callback=myMap"></script>
 </div>
 
 </body>
