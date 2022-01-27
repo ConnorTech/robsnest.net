@@ -1,0 +1,178 @@
+div.fancy {
+	width: fit-content;
+	background-image: url("../images/paper.jpg");
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	text-align: center;
+	padding: 16px;
+	font-size: 12pt;
+}
+.titletext {
+	color: #000000;
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Serif;
+	text-decoration: none;
+	text-shadow: 2px 2px #C0C0C0;
+}
+.titletext:hover {
+	text-shadow: 2px 2px #808080;
+}
+.smalltxt{
+	color: #000000;
+	font-size: 8pt;
+	font-weight: bold;
+	font-family: Serif;
+	text-decoration: none;
+}
+.alarm {
+	color: #404040;
+	font-size: 8pt;
+	font-weight: bold;
+	font-family: Serif;
+	text-decoration: none;
+}
+.alarm:hover {
+	color: #000000;
+}
+.subtext {
+	color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	font-family: Sans-serif;
+	text-decoration: none;
+}
+.subtext:hover {
+	color: #404040;
+}
+.formlink {
+	color: #FFFFFF;
+	font-size: 12pt;
+	font-weight: bold;
+	font-family: Sans-serif;
+	text-decoration: none;
+	text-shadow: 2px 2px #4A4A4A;
+}
+.formlink:hover {
+	color: #00CCFF;
+}
+.formtext {
+	color: #C0C0C0;
+	font-weight: bold;
+	font-size: 9pt;
+	text-decoration: none;
+}
+.forminput {
+	border: 1px solid #909090;
+	-webkit-border-radius: 8px;
+    border-radius: 8px;
+	-moz-box-shadow: 2px 2px 3px #666;
+    -webkit-box-shadow: 2px 2px 3px #666;
+    box-shadow: 2px 2px 3px #666;
+	padding: 4px 6px;
+    outline: 0;
+	-webkit-appearance: none;
+	background: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+}
+.forminput.rounded:focus {
+    border-color: #FF8080;
+}
+input[name="botchk"] { display:none; }
+.calink {
+	color: #808080;
+	font-weight: bold;
+	font-size: 8pt;
+	text-decoration: none;
+}
+.calink:hover {
+	color: #C0C0C0;
+}
+.cnt {
+	color: #909090;
+	font-weight: bold;
+	font-size: 8pt;
+	text-decoration: none;
+}
+.cnt:hover {
+	color: #808080;
+}
+.tandt {
+	color: #000000;
+	font-family: Sans-serif;
+	font-weight: bold;
+	font-size: 12pt;
+	text-decoration: none;
+	text-shadow: 2px 2px #C0C0C0;
+}
+.tandt:hover {
+	color: #404040;
+	text-decoration: underline;
+	text-shadow: 0px 0px #C0C0C0;
+}
+.games {
+	color: #000000;
+	font-family: Sans-serif;
+	font-weight: bold;
+	font-size: 14pt;
+	text-decoration: none;
+	text-shadow: 2px 2px #DEA545;
+}
+.games:hover {
+	text-shadow: 2px 2px #8080FF;
+}
+.secLink {
+	color: #000000;
+	font-size: 1.5vw;
+	font-family: Serif;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.secLink:hover {
+	text-decoration: none;
+	text-shadow: 1px 1px #85C1E9;
+}
+.bottommenu {
+	color: #000000;
+	font-family: Sans-serif;
+	font-weight: bold;
+	font-size: 10pt;
+	text-decoration: none;
+	text-shadow: 2px 2px #C0C0C0;
+}
+.bottommenu:hover {
+	color: #404040;
+	text-decoration: underline;
+	text-shadow: 0px 0px #C0C0C0;
+}
+#bottom{
+	width: 98.5%;
+	position: fixed;
+	bottom: 0px;
+	text-align: center;
+}
+#crowd {
+	background-image: url("../images/crowd.png");
+	background-repeat: repeat-x;
+	width: 80.0%;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+}
+#slideshow {
+  margin: 80px auto;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
