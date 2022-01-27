@@ -45,6 +45,7 @@ div.codescreen {
 </div>
 </div>
 <div class="rc_nav" id="centered_nav">
+<a href="development/index.php" title="Project Examples">Ex.</a>
 <a href="map.php" title="Cumberland, Maryland">Map</a>
 <a href="linusandme.php" title="Linus & Me">Linus & Me</a>
 <a href="https://connortechsolutions.com" title="Connor Technology Solutions">Connor Technology Solutions</a>
